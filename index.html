@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Main structure: header hero about program speakers price reviews registration footer(contacts)  -->
+    <!-- Main structure: header hero about program speakers price reviews registration contacts footer -->
 
     <!-- Header -->
     <header class="header">
@@ -15,8 +15,9 @@
         <svg class="logo">
             <use></use>
         </svg>
+
         <nav class="navigation">
-            <ul class="navigation__list">
+            <ul class="navigation__list list">
                 <li class="navigation__item">
                     <a href="" class="navigation__link">About us</a>
                 </li>
@@ -37,7 +38,8 @@
                 </li>
             </ul>
         </nav>
-        <button class="mobile-nav-btn">
+
+        <button type="button" class="mobile-nav-btn button">
             <svg class="mobile-nav-btn__ico">
                 <use></use>
             </svg>
@@ -48,43 +50,149 @@
     <main>
       <!-- Hero -->
       <section class="section hero">
-        <div class="container"></div>
+        <div class="container">
+          <h1 class="hero__title">Donut Masterclass with the Donut King</h1>
+          <p class="hero__info">Hosted by Eva Green</p>
+          <button type="button" class="hero__btn button"></button>
+
+          <!-- socials icons -->
+          <ul class="socials list">
+            <li class="socials__item">
+              <svg class="socials__ico">
+                <use></use>
+              </svg>
+            </li>
+            <li class="socials__item">
+              <svg class="socials__ico">
+                <use></use>
+              </svg>
+            </li>
+            <li class="socials__item">
+              <svg class="socials__ico">
+                <use></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- About -->
       <section class="section about">
-        <div class="container"></div>
+        <div class="container">
+          <div class="about__card">
+            <img src="" alt="" class="about__picture">
+          </div>
+          <h2 class="about__title section__title">About us</h2>
+          <p class="about__description"></p>
+        </div>
       </section>
 
       <!-- Program -->
       <section class="section program">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="program__title section__title">Program</h2>
+          <p class="program__description"></p>
+          <ul class="benefits">
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+            <li class="benefits__item"></li>
+          </ul>
+          <p class="program__description"></p>
+          <div class="specials">
+            <!-- pictures -->
+          </div>
+        </div>
       </section>
 
       <!-- Speakers -->
       <section class="section speakers">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="speakers__title section__title">Speakers</h2>
+          <ul class="speakers__list">
+            <li class="speaker">
+              <img src="" alt="" class="speaker__photo">
+              <p class="speaker__name"></p>
+              <p class="speaker__position"></p>
+            </li>
+            <li class="speaker">
+              <img src="" alt="" class="speaker__photo">
+              <p class="speaker__name"></p>
+              <p class="speaker__position"></p>
+            </li>
+            <li class="speaker">
+              <img src="" alt="" class="speaker__photo">
+              <p class="speaker__name"></p>
+              <p class="speaker__position"></p>
+            </li>
+            <li class="speaker">
+              <img src="" alt="" class="speaker__photo">
+              <p class="speaker__name"></p>
+              <p class="speaker__position"></p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Price -->
       <section class="section price">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="price__title section__title">Price</h2>
+          <ul class="price__list">
+            <li class="price-card">
+              <h3 class="price-card__title">Easy start</h3>
+
+              <button type="button" class="price-card__btn">Register</button>
+            </li>
+            <li class="price-card">
+              <h3 class="price-card__title">I want delicious donuts</h3>
+
+              <button type="button" class="price-card__btn">Register</button>
+            </li>
+            <li class="price-card">
+              <h3 class="price-card__title">Premium</h3>
+
+              <button type="button" class="price-card__btn">Register</button>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Reviews -->
       <section class="section reviews">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="rewiews__title section__title">Reviews</h2>
+          <!-- gallery -->
+        </div>
       </section>
 
       <!-- Registration -->
       <section class="section registration">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="registration__title section__title">Registration</h2>
+          <!-- form -->
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact">
+        <div class="container">
+          <h2 class="contact__title section__title">Contact</h2>
+          <!-- form -->
+          <!-- socials icons -->
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container footer__container">
+        <address class="footer__address"></address>
+        <img src="" alt="" class="footer__img">
+      </div>
     </footer>
   </body>
 </html>
